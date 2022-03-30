@@ -16,7 +16,7 @@ const App = () => {
 					<div className='routes'>
 						<Routes>
 							<Route path='/' element={<Homepage />} />
-							<Route path='/exchanges' element={<Exchanges />} />
+							{/* <Route path='/exchanges' element={<Exchanges />} /> */}
 							<Route path='/cryptocurrencies' element={<Cryptocurrencies />} />
 							<Route path='/crypto/:coinId' element={<CryptoDetails />} />
 							<Route path='/news' element={<News />} />
@@ -24,7 +24,7 @@ const App = () => {
 					</div>
 				</Layout>
 				<div className='footer'>
-					<Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
+					<Typography.Title level={5} style={{ color: '#111111', textAlign: 'center' }}>
 						Cryptoverse <br />
 						All rights reserved
 					</Typography.Title>

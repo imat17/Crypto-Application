@@ -1,5 +1,5 @@
 :root{
-    --text-primary:#000;
+    --text-primary:'#F6F6F6'!important;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
    --pink: #0071bd;
@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+/* li, a {
+    color: #111111!important;
+} */
+
 a:hover{
     color: var(--pink) !important;
 }
@@ -25,6 +29,7 @@ a:hover{
 .navbar{
     flex: 0.2;
     background-color: rgb(0, 21, 41);
+    /* background-color: #FFCB74; */
 }
 
 .main{
@@ -42,10 +47,12 @@ a:hover{
     height: 100vh;
     margin: 0px;
     background-color: rgb(0, 21, 41);
+    /* background-color: #FFCB74; */
 }
 
 .logo-container{
     background-color: #001529;
+    /* background-color: #FFCB74; */
     display: flex;
     padding: 20px;
     align-items: center;
