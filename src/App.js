@@ -24,14 +24,14 @@ const App = () => {
 					</div>
 				</Layout>
 				<div className='footer'>
-					<Typography.Title level={5} style={{ color: '#111111', textAlign: 'center' }}>
+					<Typography.Title level={5} style={{ color: '#FFCB74', textAlign: 'center' }}>
 						Cryptoverse <br />
 						All rights reserved
 					</Typography.Title>
 					<Space>
-						<Link to='/'>Home</Link>
-						<Link to='/exchanges'>Exchanges</Link>
-						<Link to='/news'>News</Link>
+						<Link style={{color: '#FFCB74'}} to='/'>Home</Link>
+						<Link style={{color: '#FFCB74'}} to='/exchanges'>Exchanges</Link>
+						<Link style={{color: '#FFCB74'}} to='/news'>News</Link>
 					</Space>
 				</div>
 			</div>

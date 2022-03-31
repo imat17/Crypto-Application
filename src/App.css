@@ -32,6 +32,10 @@ a:hover{
     /* background-color: #FFCB74; */
 }
 
+h1,h2,h3 {
+    color: #FFCB74!important;
+}
+
 .main{
     flex: 0.8;
     width: 100%;
